@@ -37323,6 +37323,12 @@ video {
   /* background-color: #2C3639 !important; */
   background-color: #0f1618 !important;
  }
+ h2{
+  color: #fff !important;
+ }
+ .bg-color-2{
+  background-color: #0f1618 !important;
+ }
  .bg-color{
   background-color: #2C3639 !important;
   color: white !important;
@@ -37333,10 +37339,10 @@ video {
   color: #fff;
  }
  .shadow-nav{
-  box-shadow: 15px 5px 18px gainsboro;
+  box-shadow: 15px 5px 18px #2C3639 !important;
  }
  .shadow-nav-login{
-  box-shadow: 15px 10px 28px gainsboro !important;
+  box-shadow: 15px 10px 28px #2C3639 !important;
  }
  .rounded-2{
   border-radius: 10px;
