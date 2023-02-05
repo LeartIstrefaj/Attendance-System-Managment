@@ -2708,6 +2708,9 @@ video {
 .bg-white{
   background-color: #fff;
 }
+.bg-white-2{
+  background-color: #fff;
+}
 
 .bg-gray-100{
   background-color: #f7fafc;
@@ -37310,3 +37313,40 @@ video {
     z-index: auto;
   }
 }
+
+ /* extra re-styling front section */
+
+ /* body{
+  background-color: #fff !important;
+ } */
+ body{
+  /* background-color: #2C3639 !important; */
+  background-color: #0f1618 !important;
+ }
+ .bg-color{
+  background-color: #2C3639 !important;
+  color: white !important;
+  outline: none;
+  border: none;
+ }
+ .color{
+  color: #fff;
+ }
+ .shadow-nav{
+  box-shadow: 15px 5px 18px gainsboro;
+ }
+ .shadow-nav-login{
+  box-shadow: 15px 10px 28px gainsboro !important;
+ }
+ .rounded-2{
+  border-radius: 10px;
+ }
+ .btn{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+
+ }

@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="w-full max-w-xs mx-auto">
-    <form method="POST" action="{{ route('login') }}" class="bg-white shadow rounded px-8 pt-6 pb-8 mb-4">
+<div class="bg-color w-full max-w-xs mx-auto">
+    <form method="POST" action="{{ route('login') }}" class="bg-white-2 shadow-nav-login rounded-2 px-8 pt-6 pb-8 mb-4">
         @csrf
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="emailaddress">
@@ -32,8 +32,8 @@
             </label>
         </div>
         <div class="flex items-center justify-between">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                Sign In
+            <button class=" btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                Log in!
             </button>
         </div>
     </form>
