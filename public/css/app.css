@@ -37326,6 +37326,12 @@ video {
  h2{
   color: #fff !important;
  }
+ .bg-color{
+  background-color: #2C3639 !important;
+  color: white !important;
+  outline: none;
+  border: none;
+ }
  .bg-color-2{
   background-color: #0f1618 !important;
  }
@@ -37333,12 +37339,13 @@ video {
   background-color: #566bc8;
   color: white;
  }
- .bg-color{
-  background-color: #2C3639 !important;
-  color: white !important;
-  outline: none;
-  border: none;
+ 
+ .bg-color-4{
+  /* background-color: #3F4E4F; */
+  background-color: #252525;
+  color: white;
  }
+ 
  .color{
   color: #fff;
  }
@@ -37365,6 +37372,15 @@ video {
  }
  .btn:hover{
   background-color: #1a202c;
+ }
+ .btn-2{
+  background-color: #252525;
+ }
+ .btn-2:hover{
+  /* background-color: #393e46; */
+  /* background-color: #bbe1fa; */
+  background-color: #eeeeee;
+  color:#2C3639;
  }
  .input{
   background-color: #2C3639;
