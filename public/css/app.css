@@ -37385,7 +37385,8 @@ video {
  .input{
   background-color: #2C3639;
   color: gainsboro;
-  border: 1px solid gainsboro;
+  outline: none;
+  border-bottom: 1px solid gainsboro !important;
  }
  label{
   color: gainsboro!important;
