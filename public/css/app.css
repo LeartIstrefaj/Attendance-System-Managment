@@ -37347,7 +37347,10 @@ video {
  }
  
  .color{
-  color: #fff !important;
+  color: #fff;
+ }
+ #color{
+  color: #2C3639 !important;
  }
  .shadow-nav{
   box-shadow: 15px 5px 18px #2C3639 !important;

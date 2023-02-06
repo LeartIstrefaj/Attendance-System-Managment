@@ -61,18 +61,18 @@
 
             <div class="w-full px-6 py-6">
                 @foreach ($attendances as $classid => $datevalues)
-                    <h2 class="bg-gray-300 text-gray-500 font-semibold uppercase px-4 py-3">
+                    <h2 class="bg-gray-300 text-gray-500 font-semibold uppercase px-4 py-3" id="color">
                         class {{ $classid }}
                     </h2>
                     <div class="flex flex-col bg-gray-200 mb-6">
                         @foreach ($datevalues as $key => $attendancevals)
-                            <div class="text-left text-gray-600 py-2 px-4 font-semibold">
+                            <div class="text-left text-gray-700 py-2 px-4 font-semibold">
                                 <span >{{ $key }}</span>
                                 <div class="flex flex-col justify-between bg-gray-100">
                                     @foreach ($attendancevals as $vals => $attendance)
                                         <div class="flex flex-row justify-between w-64">
-                                            <div class="text-sm text-left text-gray-600 py-2 px-4 font-semibold">{{ $attendance->student->user->name }}</div>
-                                            <div class="text-sm text-left text-gray-600 py-2 px-4 font-semibold">
+                                            <div class="text-sm text-left text-gray-800 py-2 px-4 font-semibold">{{ $attendance->student->user->name }}</div>
+                                            <div class="text-sm text-left text-gray-800 py-2 px-4 font-semibold">
                                                 @if ($attendance->attendence_status)
                                                     <span class="text-xs text-white bg-green-500 px-2 py-1 rounded">P</span>
                                                 @else
