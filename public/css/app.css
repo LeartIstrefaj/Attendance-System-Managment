@@ -37347,7 +37347,7 @@ video {
  }
  
  .color{
-  color: #fff;
+  color: #fff !important;
  }
  .shadow-nav{
   box-shadow: 15px 5px 18px #2C3639 !important;
@@ -37379,6 +37379,15 @@ video {
  .btn-2:hover{
   /* background-color: #393e46; */
   /* background-color: #bbe1fa; */
+  background-color: #eeeeee;
+  color:#2C3639;
+ }
+ .btn-3{
+  /* background-color: #454362; */
+  background-color: #55bd94;
+ }
+ .btn-3:hover{
+ transition: .5s ease;
   background-color: #eeeeee;
   color:#2C3639;
  }
